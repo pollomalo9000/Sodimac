@@ -1,0 +1,38 @@
+El problema era que vcursor era un arreglo
+
+[
+   {
+      "vTrfNumber":"0",
+      "pUsuario":"RUIM103",
+      "vCursor":[
+         {
+            "sku":"316267",
+            "cantidad":"0"
+         },
+         {
+            "sku":"101010",
+            "cantidad":0
+         }
+      ]
+   },
+   {
+      "vTrfNumber":"2",
+      "Usuario":"RUIM103",
+      "Cursor":[
+         {
+            "sku":"873518",
+            "cantidad":"0"
+         }
+      ]
+   },
+   {
+      "vTrfNumber":"1",
+      "pUsuario":"RUIM103",
+      "vCursor":[
+         {
+            "sku":"344322",
+            "cantidad":0
+         }
+      ]
+   }
+]
