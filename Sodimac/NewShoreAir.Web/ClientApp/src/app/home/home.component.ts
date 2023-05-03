@@ -10,16 +10,12 @@ import { ReactiveFormsModule } from '@angular/forms';
 })
 export class HomeComponent {
 
-  public form: FormGroup;
-  locations:string[]=[];
-  journeys:Journey[]=[];
-  curencys:[]=[];
-  message = '';
-  same = false;
+
+  sku: string;
+
   constructor(private _fb: FormBuilder, private _coreApi: CoreApiService) {
-    this.form = this._initGroup();
-    this.locations= ["MZL","MDE", "PEI", "BOG","CAN","CAN", "MAD", "BCN" ,"MAD" ,"CTG" ,"MEX" ];
-  
+
+    this.sku = '';
 
    
   }

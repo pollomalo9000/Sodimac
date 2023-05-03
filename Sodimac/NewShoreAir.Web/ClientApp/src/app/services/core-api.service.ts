@@ -35,11 +35,22 @@ export class CoreApiService {
    */
   private _initRoutes(): void {
     this.routes = {
-      flights: {
-        backendURL: `${this.apiURL}Flight/GetJourneys`,
-        searchURL: `${this.apiURL}Flight/GetJourneys`,
-        backendURL2: `${this.apiURL}Flight/GetJourneys`,
+      DisponibilidadNeta: {
+        backendURL: `${this.apiURL}Disponibilidad/DisponibilidadNeta`,
+        searchURL: `${this.apiURL}Disponibilidad/DisponibilidadNeta`,
+        backendURL2: `${this.apiURL}Disponibilidad/DisponibilidadNeta`,
+      },
+      TotalInventarioComprometido: {
+        backendURL: `${this.apiURL}Disponibilidad/TotalInventarioComprometido`,
+        searchURL: `${this.apiURL}Disponibilidad/TotalInventarioComprometido`,
+        backendURL2: `${this.apiURL}Disponibilidad/TotalInventarioComprometido`,
+      },
+      UnidadesPorUbicacion: {
+        backendURL: `${this.apiURL}Disponibilidad/UnidadesPorUbicacion`,
+        searchURL: `${this.apiURL}Disponibilidad/UnidadesPorUbicacion`,
+        backendURL2: `${this.apiURL}Disponibilidad/UnidadesPorUbicacion`,
       }
+
      };
   }
 

@@ -46,8 +46,8 @@ namespace NewShoreAir.Web.Extensions
 
         public static void AddApplicationServices(this IServiceCollection services)
         {
-            services.AddScoped<IDisponibilidadDataAcces, FlightDataAcces>();
-            services.AddScoped<IDisponibilidadBussines, FlightBussines>();
+            services.AddScoped<IDisponibilidadDataAcces, DisponibilidadDataAcces>();
+            services.AddScoped<IDisponibilidadBussines, DisponibilidadBussines>();
         }
 
         public static void ConfigureServices(this IServiceCollection services, IConfiguration configuration)
